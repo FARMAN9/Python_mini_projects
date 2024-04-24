@@ -12,7 +12,7 @@ def main():
        print(f"File '{image_path}' found.")
     
     # Specify the path to the Tesseract OCR executable
-    pytesseract.pytesseract.tesseract_cmd = 'C:\Program Files (x86)\Tesseract-OCR\tesseract.exe'
+    pytesseract.pytesseract.tesseract_cmd = 'C:\Program Files (x86)\Tesseract-OCR\tesseract'
     
     # Open the image file
     img = Image.open(image_path)
