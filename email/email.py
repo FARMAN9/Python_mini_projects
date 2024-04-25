@@ -10,8 +10,8 @@ def send_email(to, content):
     servser=smtplib.SMPT('smpt.gmail.com',589)
     servser.ehlo
     servser.starttls()
-    servser.login('saeedfarman9@gmail.com','mrpassword9k')
-    servser.sendmail('saeedfarman9@gmail.com',to,content)
+    servser.login('saeedfarmanwrhiuwGmail.com','hydegfiuiiuheikk')
+    servser.sendmail('saeedfarmfjhfjh9@gmail.com',to,content)
     servser.close()
     
     
